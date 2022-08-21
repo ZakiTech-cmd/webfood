@@ -53,6 +53,7 @@ a {
 #main-header nav a {
     color: rgb(185, 131, 31);
     font-size: 1.25rem;
+    text-align: center;
 }
 
 #main-header nav a:hover {
