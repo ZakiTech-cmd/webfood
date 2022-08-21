@@ -6,3 +6,9 @@ function addToCart() {
   alert("hello")
 }
 addToCartBtn.addEventListener('click', addToCart)
+
+let fromLocalSotarge = localStorage.getItem("cartItems");
+
+let array = JSON.parse(fromLocalSotarge)
+
+console.log(array);
